@@ -2,7 +2,7 @@ import { createFileRoute } from "@tanstack/react-router";
 import { useState } from "react";
 
 import { AppShell } from "@/components/AppShell";
-import { Field, Textarea, ToolWorkspace } from "@/components/ToolWorkspace";
+import { Field, ToolWorkspace } from "@/components/ToolWorkspace";
 
 export const Route = createFileRoute("/meeting-notes")({
   head: () => ({
